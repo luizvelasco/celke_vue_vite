@@ -1,47 +1,16 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+    <h1>Vue 3 com Vite</h1>
+    <p>Este é o nosso primeiro projeto real com estrutura de pastas.</p>
+    <!-- Enviar uma prop (propriedade) chamada "usuario" para o componente Mensagem -->
+    <Mensagem usuario="Velasco"/>
 
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<script setup> 
+// O uso do <script setup> faz com que ele fique automaticamente disponível no template
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+    // Importa o componente mensagem
+    import Mensagem from './components/Mensagem.vue';
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+</script>
