@@ -1,38 +1,60 @@
-# .
+Projeto criado durante o curso de Laravel 12 e Vue.js.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Requisitos
 
-## Recommended IDE Setup
+* Node.js 22 ou superior - Conferir a versão: node -v
+* NPM - Conferir a versão: npm -v
+* GIT - Conferir se está instalado o GIT: git -v
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Como rodar o projeto baixado
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+Instalar as dependências.
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+Compilar e recarregar durante o desenvolvimento.
+```
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+Acessar a página criada.
 ```
+http://localhost:5173/
+```
+
+## Sequência para criar o projeto
+
+Criar o projeto com Vue.js. O ponto "." no final indica que o projeto será criado no mesmo diretório.
+```
+npm create vue@latest
+```
+
+- Package name: Digitar o nome do projeto.
+- Select features to include in your project: Pressione Enter e não selecione nenhuma opção para criar o projeto da forma mais simples possível.
+- Select experimental features to include in your project: Pressione Enter, pois não é necessário utilizar recursos experimentais.
+- Skip all example code and start with a blank Vue project? Selecione No para começar com um projeto mínimo.
+
+Instalar as dependências.
+```
+npm install
+```
+
+Compilar e recarregar durante o desenvolvimento.
+```
+npm run dev
+```
+
+Acessar a página criada.
+```
+http://localhost:5173/
+```
+
+## Autor
+
+Este projeto foi desenvolvido por [Cesar Szpak](https://github.com/cesarszpak) e está hospedado no repositório da organização [Celke](https://github.com/celkecursos).
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE.txt) para mais detalhes.
+
